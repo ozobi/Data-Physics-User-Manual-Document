@@ -179,7 +179,7 @@ $endfor$
 %	Logo
 %------------------------------------------------
 \begin{flushright}
-	\Oldincludegraphics[width=240px]{./Content/Title/logo.png}
+	\Oldincludegraphics[width=240px]{$if(titleDir)$$titleDir$/logo.png$endif$}
 \end{flushright}
 \vspace{0.05\textheight} % Whitespace
 
@@ -200,7 +200,7 @@ $endfor$
 %	Image
 %------------------------------------------------
 \begin{center}
-	\Oldincludegraphics[width=400px]{./Content/Title/splash.png}
+	\Oldincludegraphics[width=400px]{$if(titleDir)$$titleDir$/splash.png$endif$}
 \end{center}
 \vspace{0.05\textheight} % Whitespace
 \end{titlingpage}
